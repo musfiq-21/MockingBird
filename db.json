@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Musfiqur Rahman",
+      "email": "musfiq@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Arif khan",
+      "email": "arif@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Murad hossain",
+      "email": "murad@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Shahid aktar",
+      "email": "aktar@gmail.com"
+    }
+  ],
+  "news": [
+    {
+      "id": 2,
+      "title": "Local Startup Wins Innovation Award",
+      "body": "A Dhaka-based startup has won an international innovation award for AI-driven solutions...",
+      "author_id": 2,
+      "comments": []
+    },
+    {
+      "title": "DU IIT offer MSc ",
+      "body": "The department of IIT, University of Dhaka offer a new program. The program in MSc in software enginnering.\n",
+      "author_id": 3,
+      "comments": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "text": "Interested"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "national uprising ",
+      "body": "National uprising in 2024 july.\n",
+      "author_id": 2,
+      "comments": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "text": "love for the country"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
