@@ -17,7 +17,8 @@ export default function Login() {
         getUsers()
             .then(res => {
                 if (cancelled) return;
-                setUsers(res.data || []);
+                console.log("API Response:", res.data); // Debugging API response
+                setUsers(Array.isArray(res.data) ? res.data : []);
             })
             .catch(err => {
                 console.error(err);

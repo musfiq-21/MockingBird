@@ -1,5 +1,5 @@
 {
-  "name": "MockingBird",
+  "name": "mockingbird",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "api": "json-server --watch db.json --port 3000"
+    "api": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
     "axios": "^1.13.2",
